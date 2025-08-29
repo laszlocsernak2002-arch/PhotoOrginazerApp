@@ -1,0 +1,6 @@
+20220429_142102.jpg						yyyymmdd_code
+FB_IMG_1605166804091.jpg				Unix timestamp (az idő másodpercben vagy ezredmásodpercben 1970.01.01 óta)
+IMG_20191128_123845						yyyymmdd code
+Screenshot_20240604_155220_Gmail.jpg	yyyymmdd code
+Snapchat-167543649.jpg					trükkös -> properties ből le lehet kérni a "media created" paramétert
+received_3427021200739204.jpeg			? talán EXIF metaadatból vagy le lehet kérni a "media created" paramétert

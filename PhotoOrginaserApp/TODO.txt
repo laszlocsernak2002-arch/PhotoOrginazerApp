@@ -1,0 +1,7 @@
+﻿Mappalétrehozás a programmal:
+- mappa minden évnek amivel létezik fájlnév
+- mappa minden hónapnak az éveken belül de csak azok a hónapok amikhez legalább 1 kép van (ne legyen üres mappa)
+- fájlnevek feldolgozása (yyyymmdd) ami nem illik bele a mintákba azokat egy külön mappába gyűjtse a program
+
+-videók lekezelése hasonló módon
+-duplikátumok saját mappába helyezése
