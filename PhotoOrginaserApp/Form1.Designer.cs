@@ -37,6 +37,9 @@ namespace PhotoOrginaserApp
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.countTextBox = new System.Windows.Forms.TextBox();
             this.RunAlgorithm_btn = new System.Windows.Forms.Button();
+            this.image_radioBtn = new System.Windows.Forms.RadioButton();
+            this.video_radioBtn = new System.Windows.Forms.RadioButton();
+            this.hideDuplicates_chkbox = new System.Windows.Forms.CheckBox();
             this.SuspendLayout();
             // 
             // search_btn
@@ -104,15 +107,53 @@ namespace PhotoOrginaserApp
             this.RunAlgorithm_btn.Name = "RunAlgorithm_btn";
             this.RunAlgorithm_btn.Size = new System.Drawing.Size(85, 38);
             this.RunAlgorithm_btn.TabIndex = 6;
-            this.RunAlgorithm_btn.Text = "Algoritmus";
+            this.RunAlgorithm_btn.Text = "Algorithm";
             this.RunAlgorithm_btn.UseVisualStyleBackColor = true;
             this.RunAlgorithm_btn.Click += new System.EventHandler(this.RunAlgorithm_btn_Click);
+            // 
+            // image_radioBtn
+            // 
+            this.image_radioBtn.AutoSize = true;
+            this.image_radioBtn.Location = new System.Drawing.Point(498, 191);
+            this.image_radioBtn.Name = "image_radioBtn";
+            this.image_radioBtn.Size = new System.Drawing.Size(59, 17);
+            this.image_radioBtn.TabIndex = 7;
+            this.image_radioBtn.TabStop = true;
+            this.image_radioBtn.Text = "Images";
+            this.image_radioBtn.UseVisualStyleBackColor = true;
+            this.image_radioBtn.CheckedChanged += new System.EventHandler(this.radioButton1_CheckedChanged);
+            // 
+            // video_radioBtn
+            // 
+            this.video_radioBtn.AutoSize = true;
+            this.video_radioBtn.Location = new System.Drawing.Point(498, 214);
+            this.video_radioBtn.Name = "video_radioBtn";
+            this.video_radioBtn.Size = new System.Drawing.Size(57, 17);
+            this.video_radioBtn.TabIndex = 8;
+            this.video_radioBtn.TabStop = true;
+            this.video_radioBtn.Text = "Videos";
+            this.video_radioBtn.UseVisualStyleBackColor = true;
+            this.video_radioBtn.CheckedChanged += new System.EventHandler(this.video_radioBtn_CheckedChanged);
+            // 
+            // hideDuplicates_chkbox
+            // 
+            this.hideDuplicates_chkbox.AutoSize = true;
+            this.hideDuplicates_chkbox.Location = new System.Drawing.Point(488, 249);
+            this.hideDuplicates_chkbox.Name = "hideDuplicates_chkbox";
+            this.hideDuplicates_chkbox.Size = new System.Drawing.Size(99, 17);
+            this.hideDuplicates_chkbox.TabIndex = 9;
+            this.hideDuplicates_chkbox.Text = "Hide duplicates";
+            this.hideDuplicates_chkbox.UseVisualStyleBackColor = true;
+            this.hideDuplicates_chkbox.CheckedChanged += new System.EventHandler(this.hideDuplicates_chkbox_CheckedChanged);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(617, 685);
+            this.Controls.Add(this.hideDuplicates_chkbox);
+            this.Controls.Add(this.video_radioBtn);
+            this.Controls.Add(this.image_radioBtn);
             this.Controls.Add(this.RunAlgorithm_btn);
             this.Controls.Add(this.countTextBox);
             this.Controls.Add(this.textBox1);
@@ -136,6 +177,9 @@ namespace PhotoOrginaserApp
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.TextBox countTextBox;
         private System.Windows.Forms.Button RunAlgorithm_btn;
+        private System.Windows.Forms.RadioButton image_radioBtn;
+        private System.Windows.Forms.RadioButton video_radioBtn;
+        private System.Windows.Forms.CheckBox hideDuplicates_chkbox;
     }
 }
 

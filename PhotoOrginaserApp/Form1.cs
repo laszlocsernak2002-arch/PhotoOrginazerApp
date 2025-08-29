@@ -323,5 +323,20 @@ namespace PhotoOrginaserApp
 
             return dateOfTheFile;
         }
+
+        private void radioButton1_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void hideDuplicates_chkbox_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void video_radioBtn_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
